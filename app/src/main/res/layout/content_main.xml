@@ -11,69 +11,63 @@
 
         <com.example.room.ObjectClickImageView
             android:id="@+id/home_dobong"
-            android:layout_width="35dp"
-            android:layout_height="67dp"
+            android:layout_width="37dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="80dp"
+            android:adjustViewBounds="true"
             android:src="@drawable/map_dobong"
-            tools:layout_editor_absoluteX="222dp"
-            tools:layout_editor_absoluteY="105dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.617"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.example.room.ObjectClickImageView
             android:id="@+id/home_nowon"
-            android:layout_width="53dp"
-            android:layout_height="90dp"
+            android:layout_width="54dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginRight="72dp"
+            android:adjustViewBounds="true"
             android:src="@drawable/map_nowon"
-            tools:layout_editor_absoluteX="253dp"
-            tools:layout_editor_absoluteY="105dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.625"
+            app:layout_constraintStart_toStartOf="@+id/home_dobong"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.example.room.ObjectClickImageView
             android:id="@+id/home_gangbook"
-            android:layout_width="54dp"
-            android:layout_height="87dp"
+            android:layout_width="50dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:adjustViewBounds="true"
             android:src="@drawable/map_gangbook"
-            tools:layout_editor_absoluteX="199dp"
-            tools:layout_editor_absoluteY="112dp" />
+            app:layout_constraintEnd_toEndOf="@+id/home_dobong"
+            app:layout_constraintHorizontal_bias="1.015"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <com.example.room.ObjectClickImageView
-            android:id="@+id/home_seongbook"
-            android:layout_width="95dp"
-            android:layout_height="55dp"
-            android:src="@drawable/map_seongbook"
-            tools:layout_editor_absoluteX="186dp"
-            tools:layout_editor_absoluteY="168dp" />
-
-        <com.example.room.ObjectClickImageView
-            android:id="@+id/home_joonglang"
-            android:layout_width="41dp"
-            android:layout_height="54dp"
-            android:src="@drawable/map_joonglang"
-            tools:layout_editor_absoluteX="271dp"
-            tools:layout_editor_absoluteY="182dp" />
-
-        <com.example.room.ObjectClickImageView
-            android:id="@+id/home_dongdaemoon"
-            android:layout_width="49dp"
-            android:layout_height="47dp"
-            android:src="@drawable/map_dongdaemoon"
-            tools:layout_editor_absoluteX="231dp"
-            tools:layout_editor_absoluteY="200dp" />
-
-        <com.example.room.ObjectClickImageView
-            android:id="@+id/home_jongro"
-            android:layout_width="53dp"
-            android:layout_height="71dp"
-            android:src="@drawable/map_jongro"
-            tools:layout_editor_absoluteX="176dp"
-            tools:layout_editor_absoluteY="168dp" />
 
     </android.support.constraint.ConstraintLayout>
 
     <LinearLayout
+        android:paddingTop="30dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="최신 글"/>
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"></ListView>
+            android:layout_height="wrap_content">
+        </ListView>
 
     </LinearLayout>
 </LinearLayout>
