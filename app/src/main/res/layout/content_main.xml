@@ -1,6 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -11,63 +12,340 @@
 
         <com.example.room.ObjectClickImageView
             android:id="@+id/home_dobong"
-            android:layout_width="37dp"
-            android:layout_height="73dp"
+            android:layout_width="51dp"
+            android:layout_height="80dp"
             android:layout_marginTop="80dp"
             android:adjustViewBounds="true"
             android:src="@drawable/map_dobong"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.617"
+            app:layout_constraintHorizontal_bias="0.665"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_seongbook"
+            android:layout_width="89dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="150dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_seongbook"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_dongdaemoon"
+            android:layout_width="58dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="189dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_dongdaemoon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.72"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_jongro"
+            android:layout_width="64dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="158dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_jongro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.541"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_seodaemoon"
+            android:layout_width="58dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="181dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_seodaemoon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.408"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_enpyeong"
+            android:layout_width="80dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="128dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_enpyeong"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.385"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_joong"
+            android:layout_width="54dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="228dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_joong"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.563"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_seongdong"
+            android:layout_width="56dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="238dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_seongdong"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.689"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_guangjin"
+            android:layout_width="53dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="234dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_guangjin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.818"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_gangbook"
+            android:layout_width="73dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_gangbook"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.627"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_joonglang"
+            android:layout_width="59dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="176dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_joonglang"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.84"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <com.example.room.ObjectClickImageView
             android:id="@+id/home_nowon"
-            android:layout_width="54dp"
-            android:layout_height="82dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="88dp"
-            android:layout_marginEnd="72dp"
-            android:layout_marginRight="72dp"
+            android:layout_width="64dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="94dp"
             android:adjustViewBounds="true"
             android:src="@drawable/map_nowon"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.625"
-            app:layout_constraintStart_toStartOf="@+id/home_dobong"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <com.example.room.ObjectClickImageView
-            android:id="@+id/home_gangbook"
-            android:layout_width="50dp"
-            android:layout_height="96dp"
-            android:layout_marginTop="88dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/map_gangbook"
-            app:layout_constraintEnd_toEndOf="@+id/home_dobong"
-            app:layout_constraintHorizontal_bias="1.015"
+            app:layout_constraintHorizontal_bias="0.805"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_yongsan"
+            android:layout_width="64dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="254dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_yongsan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.527"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_mapo"
+            android:layout_width="98dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="211dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_mapo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.321"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_hangang"
+            android:layout_width="365dp"
+            android:layout_height="132dp"
+            android:layout_marginTop="176dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_hangang"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_gangseo"
+            android:layout_width="114dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="199dp"
+            android:layout_marginBottom="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_gangseo"
+            app:layout_constraintBottom_toTopOf="@+id/home_geumcheon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.032"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_yeongdeungpo"
+            android:layout_width="65dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="258dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_yeongdeungpo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.335"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_dongjak"
+            android:layout_width="62dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="287dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_dongjak"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.43"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_seocho"
+            android:layout_width="112dp"
+            android:layout_height="114dp"
+            android:layout_marginTop="286dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_seocho"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.715"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_gangnam"
+            android:layout_width="94dp"
+            android:layout_height="106dp"
+            android:layout_marginTop="266dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_gangnam"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.788"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_songpa"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="268dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_songpa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.047"
+            app:layout_constraintStart_toEndOf="@+id/home_geumcheon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_gangdong"
+            android:layout_width="60dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="229dp"
+            android:layout_marginEnd="67dp"
+            android:layout_marginRight="67dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_gangdong"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.218"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_yangcheon"
+            android:layout_width="104dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="257dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_yangcheon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_guro"
+            android:layout_width="88dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="283dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_guro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_guanak"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="319dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_guanak"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.43"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.room.ObjectClickImageView
+            android:id="@+id/home_geumcheon"
+            android:layout_width="50dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="333dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/map_geumcheon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.328"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </android.support.constraint.ConstraintLayout>
 
     <LinearLayout
-        android:paddingTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="최신 글"/>
+            android:text="최신 글" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        </ListView>
+            android:layout_height="wrap_content"></ListView>
 
     </LinearLayout>
 </LinearLayout>
